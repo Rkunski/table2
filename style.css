@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+table{
+  width: 80%;
+  height: auto;
+  font-family: 'Oswald' ;
+  border: 2px solid white;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  object-position: center;
+  color:white;
+  padding: 5px;
+}
+th, td{
+  border: 2px solid white;
+}
+tr th{
+  background: #8c117d;
+  text-align: left;
+  padding: 15px;
+}
+td{
+  padding: 15px;
+}
+tr:nth-of-type(even){
+  background: #c362cac2;
+}
+tr:nth-of-type(odd){
+  background: #6f2a63b0;
+}
